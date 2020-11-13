@@ -27,3 +27,57 @@ body {
 img {
   max-width: 100%;
 }
+
+.main-heading,
+.section-heading,
+.item-title {
+  color: var(--dark-grayish-blue);
+  padding-bottom: 1rem;
+}
+
+.main-heading {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  word-spacing: 1px;
+}
+
+.btn-download {
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 0.8rem 1.5rem;
+  display: block;
+  width: 80%;
+  margin: 0 auto 1rem;
+  cursor: pointer;
+}
+
+.btn-for-ios {
+  background-color: var(--strong-cyan);
+  box-shadow: 0 4px 10px hsla(171, 66%, 44%, 0.5);
+}
+
+.btn-for-mac {
+  background-color: var(--light-blue);
+  box-shadow: 0 4px 10px hsla(210, 100%, 69%, 0.2);
+}
+
+/* ***header*** */
+header {
+  background: url("./images/bg-header-mobile.png") top no-repeat;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 8rem 5% 6rem;
+}
+
+.logo {
+  padding-bottom: 2.5rem;
+}
+
+p.header-info {
+  padding-bottom: 1.5rem;
+}
