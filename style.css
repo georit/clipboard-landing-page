@@ -41,6 +41,7 @@ img {
 
 p {
   font-size: 1rem;
+  line-height: 1.25;
   word-spacing: 1px;
 }
 
@@ -65,13 +66,17 @@ p {
   box-shadow: 0 4px 10px hsla(210, 100%, 69%, 0.2);
 }
 
+section {
+  text-align: center;
+}
+
 /* ***header*** */
 header {
-  background: url("./images/bg-header-mobile.png") top no-repeat;
+  background: url("./images/bg-header-mobile.png") top / 100% auto no-repeat;
   text-align: center;
   width: 100%;
   margin: 0 auto;
-  padding: 8rem 5% 6rem;
+  padding: 6rem 5%;
 }
 
 .logo {
@@ -80,4 +85,116 @@ header {
 
 p.header-info {
   padding-bottom: 1.5rem;
+}
+
+/* ***main*** */
+main {
+  width: 100%;
+  padding: 0 5% 3rem;
+}
+
+/* ***features*** */
+.section-features {
+  padding: 0 0 5rem;
+  text-align: center;
+  width: 100%;
+}
+
+.features-img {
+  padding: 3.5rem 0;
+}
+
+.feature {
+  padding-bottom: 3rem;
+}
+
+/* ***access anywhere*** */
+.access-anywhere-img {
+  padding: 3rem 0 5rem;
+}
+
+/* ***characteristics*** */
+.characteristics-info {
+  padding-bottom: 4rem;
+}
+
+.characteristic {
+  padding-bottom: 2.5rem;
+}
+
+.characteristic-icon {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+/* ***power users*** */
+.power-users {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.power-user {
+  padding: 1.5rem;
+}
+
+/* ***download*** */
+.section-download {
+  padding: 4rem 0;
+}
+
+.download-info {
+  padding-bottom: 2rem;
+}
+
+/* *****footer***** */
+footer {
+  background-color: hsla(201, 11%, 66%, 0.1);
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.footer-logo {
+  width: 15%;
+  padding-bottom: 1.5rem;
+}
+
+.nav-links {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-link {
+  padding: 0.5rem 0;
+  text-transform: capitalize;
+}
+
+.nav-link:first-child {
+  text-transform: uppercase;
+}
+
+.small-s {
+  text-transform: lowercase;
+}
+
+.nav-link a:link {
+  color: var(--grayish-blue);
+  text-decoration: none;
+}
+
+/* ***social media*** */
+.social-media {
+  padding: 1rem 0 0;
+}
+
+.social-media-icon {
+  color: var(--dark-grayish-blue);
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  cursor: pointer;
 }
