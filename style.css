@@ -204,7 +204,18 @@ footer {
 }
 
 /* segment *****media queries***** */
-@media screen and (min-width: 839px) {
+@media screen and (min-width: 500px) {
+  .btn-download {
+    width: 40%;
+  }
+
+  .btn-download:hover {
+    filter: brightness(115%);
+    -webkit-filter: brightness(115%);
+  }
+}
+
+@media screen and (min-width: 1040px) {
   /* *****general styles***** */
   .main-heading,
   .section-heading,
@@ -217,11 +228,6 @@ footer {
     display: inline-block;
     width: 35%;
     transition: all 0.3s;
-  }
-
-  .btn-download:hover {
-    filter: brightness(115%);
-    -webkit-filter: brightness(115%);
   }
 
   .btn-for-ios {
@@ -350,5 +356,9 @@ footer {
   .nav-link a:hover,
   .social-media-icon:hover {
     color: var(--strong-cyan);
+  }
+
+  .social-media {
+    padding: 0;
   }
 }
